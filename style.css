@@ -1,0 +1,316 @@
+
+}body {
+
+    margin: 0;
+
+}
+
+.screen {
+
+	width: 100%;
+
+	height: 250vh;
+
+	display: flex;
+
+	justify-content: flex-end;
+
+    align-items: center;
+
+    background-image: url(file:///storage/emulated/0/img/Duck.jpg );
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+}
+
+.form {
+
+	box-sizing: border-box;
+
+	max-width: 1000px;
+
+	width: 30%;
+
+	min-height: 300px;
+
+    padding: 0;
+
+    background-color: #red;
+
+	border-radius: 5px;
+
+	box-shadow: 2px 2px 8px #red;
+
+	display: flex;
+
+	flex-direction: column;
+
+	align-items: stretch;
+
+    justify-content: end;
+
+    margin-right: 400px;
+
+    font-family: ' Abril Fatface ', normal;
+
+}
+
+.main-title, .main-info {
+
+    text-align: center;
+
+    border: 2px solid rgba(70, 96, 96, 1);
+
+	background-color: rgba(237, 177, 201, 0.7);
+
+}
+
+.main-title {
+
+    font-family: 'Abril Fatface', normal;
+
+}
+
+.main-info {
+
+    font-size: 10px;
+
+}
+
+.input-field, .textarea, .select {
+
+	box-sizing: border-box;
+
+	width: 100%;
+
+	min-height: 20px;
+	
+	margin-bottom: 1px;
+
+	border: 2px solid rgba(70, 96, 96, 1);
+
+	background-color: rgba(237, 177, 201, 0.7);
+
+	border-bottom-right-radius: 2px;
+
+	border-bottom-left-radius: 2px;
+
+	padding-left: 7px;
+
+}
+
+.input-field::placeholder, .textarea::placeholder {
+
+	color: #rgba;
+	
+	opacity: 0.5;
+
+}
+
+.textarea {
+
+	resize: none;
+
+	border-radius: 2px;
+
+box-shadow: inset 0 1px 2px #000000;
+
+	padding-top: 2px;
+
+}
+
+
+.select-wrapper {
+
+	box-sizing: border-box;
+
+	width: 100%;
+	
+}
+
+.select {
+
+	height: 22px;
+	
+	margin-bottom: 0px;
+
+    -webkit-appearance: none;
+
+	border-bottom-right-radius: 0px;
+
+	border-bottom-left-radius: 0px;
+
+	color: rgba(0, 0, 0, 0.5);
+
+	cursor: pointer;
+
+}
+
+.select__icon {
+
+	position: absolute;
+
+	right: 15px;
+	
+	margin-bottom: 0px;
+
+	bottom: 0px;
+
+	z-index: 2;
+
+	color: rgba(70, 96, 96, 1);
+
+}
+
+.label {
+
+	display: block;
+
+	font-size: 12px;
+
+	box-sizing: border-box;
+
+	position: relative;
+	
+	margin-bottom: 0px;
+
+	bottom: -2px;
+
+	z-index: 1;
+
+	width: 100%;
+
+	background-color: rgba(70, 96, 96, 1);
+
+	padding: 0px 0px;
+
+	color: #ffffff;
+
+	border-top-right-radius: 5px;
+
+	border-top-left-radius: 5px;
+
+	box-shadow: 0 1px 2px #000000;
+
+}
+
+.label--large {
+
+	padding: 0;
+
+	margin-bottom: 1px;
+
+	border-radius: 2px;
+	
+	background-color: rgba(237, 177, 201, 0.7);
+
+}
+
+.label__text {
+
+	padding: 0px 0px;
+	
+	margin-bottom: 0px;
+	
+	background-color: rgba(237, 177, 201, 0.7);
+
+}
+
+.button {
+
+	width: 100%;
+
+	height: 50px;
+
+	box-sizing: border-box;
+
+	margin-top: 50px;
+
+	border-radius: 10px;
+
+	border: none;
+
+	background-color: rgba(237, 177, 201, 0.7);
+
+	color: #blue;
+
+	font-weight: 20;
+
+	font-size: 20px;
+
+	letter-spacing: 1px;
+
+}
+
+
+.input-title {
+
+	position: absolute;
+
+	width: 415px;
+
+	line-height: 1;
+
+	margin-left: 41px;
+
+	margin-top: 10px;
+	
+	margin-bottom: 30px;
+	
+
+	padding: 0px 0 0px 0px;
+
+	border-radius: 0px;
+
+	font-size: 14px;
+
+    background-color: rgba(223, 223, 220, 0.3);
+
+    color: #ffffff;
+
+}
+
+.input-field:focus, .textarea:focus, .select:focus, .checkbox-custom:focus, .button:focus {
+
+	outline: none;
+	
+	margin-bottom: 0px;
+
+	box-shadow: 2px 2px 2px darkkhaki;
+
+}
+
+.input-field:hover, .textarea:hover, .select:hover {
+
+	background-color: rgba(237, 177, 201, 0.8);
+	
+	margin-bottom: 30px;
+
+}
+
+.button:hover {
+
+	background-color: rgba(237, 177, 201, 1);
+
+	color: rgba(70, 96, 96, 1);
+
+}
+
+.button:disabled {
+
+	background-color: #dfdfdc;
+
+	color: rgba(70, 96, 96, 1);
+
+	opacity: 0.6;
+
+}
+
+
+
+
+
